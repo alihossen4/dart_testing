@@ -10,4 +10,10 @@ void main() {
     ..add(4)
     ..remove(2);
   print(nums);
+  String? name2;
+  print(name2!.length); // Null check operator used on a null value
+  dynamic value = "Hello";
+  print(value);
+  value = 123;
+  print(value);
 }
